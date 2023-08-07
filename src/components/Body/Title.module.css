@@ -1,0 +1,42 @@
+/* .title{
+    background-color: grey;
+    color: #fff;
+    min-width: 100vw;
+    min-height: 8rem;
+    height: 16rem;
+    margin: 0 ;
+}
+
+.title h1{
+    font-size: 8rem;
+    margin:  0 50px 20px 500px;
+    padding: 0;
+} */
+
+/* Title.module.css */
+
+.title {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 14rem;
+    /* Set the height to 16rem */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 100px;
+    margin: 0;
+}
+
+/* Media Queries for Mobile Responsive */
+
+@media (max-width: 768px) {
+    .title h1 {
+        font-size: 40px;
+    }
+}
