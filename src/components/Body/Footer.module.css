@@ -26,7 +26,7 @@
   
   .footer-icons {
     display: flex;
-    gap: 10px;
+    gap: 65px;
   }
   
   .footer-icons div {
@@ -36,8 +36,13 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-    border-radius: 50%;
     color: aqua;
+  }
+
+  .footer-icons img{
+    width: 60px;
+    height: 60px;
+    background: inherit;
   }
   
   /* Media Queries for Mobile Responsive */

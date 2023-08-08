@@ -5,7 +5,7 @@ import aboutImage from "../../images/Band Members.png";
 const About = () => {
   return (
     <>
-    <h1>ABOUT</h1>
+    <h1 className={classes.h1}>ABOUT</h1>
     <div className={classes.about}>
       <div className={classes.imageContainer}>
         <img src={aboutImage} alt="About Ecommerce" className={classes.image} />
