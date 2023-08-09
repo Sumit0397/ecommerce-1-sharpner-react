@@ -18,6 +18,9 @@ const Header = () => {
                     <li>
                         <Link to="/about" className={classes.navLink}>ABOUT</Link>
                     </li>
+                    <li>
+                        <Link to="/contact" className={classes.navLink}>CONTACT US</Link>
+                    </li>
                 </ul>
             </div>
             <div>

@@ -7,7 +7,7 @@ import fbImg from "../../icon-images/facebook icon.jpg";
 
 const Footer = () => {
   return (
-    <div className={classes.footer}>
+    <footer className={classes.footer}>
       <div>
         <h2>The Generics</h2>
       </div>
@@ -28,7 +28,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-    </div>
+    </footer>
   )
 }
 

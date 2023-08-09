@@ -1,0 +1,72 @@
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.music-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.music-content h3{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.music-content div {
+    margin: 20px;
+}
+
+.image-container{
+    height: 320px;
+    width: 320px;
+    overflow: hidden;
+    position: relative; /* Add this to create a stacking context */
+}
+
+.prod-images{
+    transform-origin: center center;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    transition: transform 0.5s ease-in, filter 0.5s ease-in; /* Add transition for transform and filter */
+    filter: brightness(100%);
+}
+
+.image-container:hover .prod-images {
+    transform: scale(1.5); /* Apply a scale transformation on hover */
+    filter: brightness(100%); /* Adjust brightness on hover */
+}
+
+
+.prod-details{
+    display: flex;
+    margin: 8px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.button{
+    cursor: pointer;
+    padding: 8px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4%;
+    background: #56CCF2;
+}
+
+.button:hover{
+    background-color: #289bc2;
+}
