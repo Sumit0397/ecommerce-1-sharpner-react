@@ -4,7 +4,7 @@ import classes from './Title.module.css';
 const Title = () => {
   return (
     <div className={classes.title}>
-      <h1>The Generics</h1>
+      <h2>The Generics</h2>
     </div>
   )
 }
