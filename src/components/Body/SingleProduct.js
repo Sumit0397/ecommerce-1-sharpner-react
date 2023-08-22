@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import Data from '../Data/Data';
 import classes from "./SingleProduct.module.css";
 
@@ -12,9 +12,9 @@ const SingleProduct = () => {
   // Find the product with the matching id
   const product = productsArr.find(product => product.id === id);
 
-  console.log('Product ID:', id);
-  console.log('Products:', productsArr);
-  console.log('Found Product:', product);
+  // console.log('Product ID:', id);
+  // console.log('Products:', productsArr);
+  // console.log('Found Product:', product);
 
   const [mainImage, setMainImage] = useState(product.image[0])
 
@@ -49,9 +49,6 @@ const SingleProduct = () => {
           <p>{product.name}</p>
           <p><strong>Details:</strong>{" "}{product.description}</p>
           <p><strong>Price:</strong> ${product.price}</p>
-          <Link to="/cart">
-            <button>Add To Cart</button>
-          </Link>
         </div>
       </div>
     </div>

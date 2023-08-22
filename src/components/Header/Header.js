@@ -20,7 +20,7 @@ const Header = (props) => {
         authCtx.logout();
     }
 
-    console.log(cartCount);
+    // console.log(cartCount);
 
     return (
         <>
@@ -48,7 +48,7 @@ const Header = (props) => {
                         </li>}
                         {authCtx.isLoggedin &&<>
                             <li className={classes.loginli}>
-                            <Link to="/profile" className={classes.login}>PROFILE</Link>
+                            <Link to="/login" className={classes.login}>PROFILE</Link>
                         </li>
 
                             <li className={classes.loginli}>

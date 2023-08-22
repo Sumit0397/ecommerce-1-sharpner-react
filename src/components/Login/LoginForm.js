@@ -56,7 +56,7 @@ const LoginForm = () => {
         })
       }
     }).then(data => {
-      authCtx.login(data.idToken);
+      authCtx.login(data.idToken,data.email);
       history("/store" , {replace : true})
       console.log(data);
     }).catch((err) => {

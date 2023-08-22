@@ -26,7 +26,7 @@ const ProductList = () => {
     }
   }
 
-  console.log(cartCtx.items);
+  // console.log(cartCtx.items);
 
 
   if (isLoading) {

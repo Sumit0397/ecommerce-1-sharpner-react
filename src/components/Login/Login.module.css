@@ -1,0 +1,23 @@
+.section{
+    background-color: aquamarine;
+    height: 300px;
+    width: 100%;
+    margin: 0;
+    position:fixed;
+}
+
+.div{
+    width: 400px;
+    height: 200px;
+    background-color: #38015c;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+
+.div p{
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 25px 120px;
+}
